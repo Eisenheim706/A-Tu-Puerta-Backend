@@ -14,7 +14,7 @@ app.get('/api/openroute-key', (req, res) => {
   // Validar origen de la solicitud
   const origin = req.get('origin');
   const allowedOrigins = [
-    'https://tu-usuario.github.io', // Tu GitHub Pages
+    'https://Eisenheim706.github.io', // Tu GitHub Pages
     'http://localhost:3000'         // Desarrollo local
   ];
 
