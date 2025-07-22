@@ -7,7 +7,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Almacenar API key en variables de entorno (Render.com)
-const OPENROUTE_API_KEY = process.env.OPENROUTE_API_KEY || "tu_api_key_por_defecto";
+const OPENROUTE_API_KEY = process.env.OPENROUTE_API_KEY || "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjMyMjE4MWZhN2EyMzRjOTY5MjRjOTYyMTNjN2I1YTE0IiwiaCI6Im11cm11cjY0In0=";
 
 // Endpoint seguro para proveer API key
 app.get('/api/openroute-key', (req, res) => {
